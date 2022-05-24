@@ -123,8 +123,6 @@ const Products = (props) => {
     setItems(newItems);
   };
 
-  // const photos = ["apple.png", "orange.png", "beans.png", "cabbage.png"];
-
   let list = items.map((item, index) => {
     let n = index + 1049;
     let pix = "https://picsum.photos/id/" + n + "/50/50";
